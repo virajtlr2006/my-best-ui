@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.jsx'
 import HeroSection from './components/HeroSection.jsx'
 import FeatureSection from './components/FeatureSection.jsx'
 import WorkFlow from './components/WorkFlow.jsx'
+import PricingSection from './components/PricingSection.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       </div>
       <FeatureSection/>
       <WorkFlow/>
+      <PricingSection/>
     </div>
   ) 
 }
